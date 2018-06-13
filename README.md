@@ -85,7 +85,7 @@ After loading the data please explore your database carefully, especially the sc
 
 ## Create rasters from existing rasters & interact with vectors
 
-In the first example, we'll see how to extract tiles that overlap a geometry. Optionally, you can create a table with the result of the query, let's save this result in the *schema_name* schema so you can view the result in QGIS.
+In the first example, we'll see how to extract tiles that overlap a geometry. Optionally, you can create a table with the result of the query, let's save this result in your schema so you can view the result in QGIS. Please change *schema_name* by the schema you want to use, e.g. your name.
 
 **Example 1 - ST_Intersects**
 
