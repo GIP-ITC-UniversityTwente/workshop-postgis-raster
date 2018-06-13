@@ -438,7 +438,7 @@ SELECT AddRasterConstraints('schema_name'::name, 'porto_ndvi2'::name,'rast'::nam
 
 **Example 3 - The TPI functions**
 
-Current implemented TPI function inside PostGIS uses map algebra with a callback function. We can analyse thouse functions to better understand map algebra.
+Current implemented TPI function inside PostGIS uses map algebra with a callback function. We can analyse this functions to better understand map algebra.
 In *public* schema functions there are two functions for TPI:
 
 1. *public._st_tpi4ma* - The callback function used in map algebra.
