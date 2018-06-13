@@ -153,7 +153,9 @@ In this example, we use pixeltype '8BUI' makring an 8-bit unsigned integer. Unsi
 
 **Example 2 - ST_Union**
 
-In this example, we will use *ST_Union* to union all the rasters (table rows) into one single raster.
+In the previous example, the resulting raster is one parish per record, per table row. Please visualize *example 1* result.
+
+Now, in this example, we will use *ST_Union* to union all the records (table rows) of the previous example into one single raster.
 
 ```sql
 DROP TABLE schema_name.porto_parishes;
