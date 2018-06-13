@@ -158,7 +158,7 @@ In the previous example, the resulting raster is one parish per record, per tabl
 Now, in this example, we will use *ST_Union* to union all the records (table rows) of the previous example into one single raster.
 
 ```sql
-DROP TABLE schema_name.porto_parishes;
+DROP TABLE schema_name.porto_parishes; --> drop table porto_parishes first
 CREATE TABLE schema_name.porto_parishes AS
 WITH r AS (
 	SELECT rast FROM rasters.dem 
